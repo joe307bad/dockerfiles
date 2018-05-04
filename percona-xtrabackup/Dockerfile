@@ -87,4 +87,4 @@ RUN chmod +x -R /usr/local/bin
 
 VOLUME /backups/mysql /etc/mysql
 WORKDIR /backups/mysql
-SHELL ["/bin/bash", "-c"]
+# SHELL ["/bin/bash", "-c"]
